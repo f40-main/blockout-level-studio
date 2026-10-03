@@ -1,0 +1,13 @@
+{
+  "name": "blockout-level-studio",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node server.cjs",
+    "db:generate": "drizzle-kit generate",
+    "test": "node --test tests/*.test.cjs tests/*.test.mjs"
+  },
+  "devDependencies": {"drizzle-kit": "0.31.5", "drizzle-orm": "0.44.7"}
+}

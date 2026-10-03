@@ -1,0 +1,13 @@
+.sites-runtime/
+node_modules/
+*.tar.gz
+*.tar
+qa-output/
+
+.env
+.env.*
+!.env.example
+*.log
+.openai/
+dist/.openai/
+
